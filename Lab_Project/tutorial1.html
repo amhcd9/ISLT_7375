@@ -1,0 +1,77 @@
+<!--
+  ISLT 4375/7375 Mobile Web Application Development
+  Lab Project (Tutorial Mobile Web Application)
+  W5-MP_HerreraA
+	Tutorial1 page: Informative page with links back to home page and next tutorial page
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tutorial - Start Tutorial</title>
+
+<!-- ============================    HEADER LINKS  ========================= -->
+<!-- ============================       CSS        ========================= -->
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+<link rel='stylesheet' href='css/styles.css'>
+
+<!-- ===========================        JS         ========================  -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+
+<!-- #4 Page Title & id allow Jquery Mobile identifies pages  -->
+<div data-role="page" id="tutorial1" data-title="Start Tutorial">
+
+	<!-- ===================     JQUERY MOBILE HEADER  ======================  -->
+	<!-- Week4#1 Header -->
+	<div data-role="header">
+
+		<h1>How To Use It</h1>
+
+		<!-- Week4#3c Navigation bar -->
+    <div data-role="navbar">
+			<ul>
+			<li>
+        <!-- Week2#5 & Week2#7 Link Pages with transition -->
+        <a href="index.html" data-icon="home" data-transition="slideup">Home</a>
+      </li>
+			<li>
+				<!-- Week2#6 & Week2#7 The Tutorial Start Page is prefetched with an slide transition -->
+	      <a href="tutorial2.html" data-icon="forward" data-prefetch="true" data-transition="turn">Next</a>
+      </li>
+			</ul>
+		</div>
+
+	</div>
+
+
+	<!-- ===================   JQUERY MOBILE MAIN    ========================  -->
+	<div role="main" class="ui-content">
+		<p>
+			This page provides information on how to use this tutorial.
+			<br>
+			bla bla bla
+
+			<br><br>
+			Go to the next page to select Layout and Design Page.
+
+
+
+		</p>
+	</div>
+
+
+	<!-- ==================== JQUERY MOBILE FOOTER  ========================== -->
+	<!-- Week4#2 Footer -->
+	<div data-role="footer" data-position="fixed">
+	  <h4>Copyright Ana Herrera &copy; 2018</h4>
+	</div>
+
+</div>
+
+</body>
+</html>
