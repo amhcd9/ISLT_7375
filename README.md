@@ -1,4 +1,4 @@
 # ISLT_7375-JQueryMobile
-Works of my ISLT_7375-JQueryMobile course
+Exercises of my ISLT_7375-JQueryMobile course
 
 Here you are going to find only HTML,CSS, JavaScript and JQuery Mobile code. 
