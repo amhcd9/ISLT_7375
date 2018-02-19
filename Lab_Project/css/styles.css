@@ -1,0 +1,32 @@
+
+p{
+  font-family: 'Abel'; /* Google Font */
+  font-size: 16px;
+  padding: 5px;
+  color:#666666;
+}
+
+
+h1{
+  font-family: 'Abel'; /* Google Font */
+  color: #006699;
+}
+
+h2{
+  font-family: 'Abel'; /* Google Font */
+  color: #006699;
+  font-size: 19px;
+  padding: 7px;
+}
+
+h3{
+  font-family: 'Abel'; /* Google Font */
+  font-size: 17px;
+  color: #006699;
+}
+
+h4{
+  font-family: 'Abel'; /* Google Font */
+  font-size: 8px;
+  color: #006699;
+}
