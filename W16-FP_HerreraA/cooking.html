@@ -1,0 +1,130 @@
+<!--
+  ISLT 4375/7375 Mobile Web Application Development
+  Final Project (How to Make Colombian Tamales Tutorial)
+  Herrera Ana
+	Cooking Page: In this page you can find:
+		A top Navigation bar in the header links the three main pages of this tutorial.
+		A listview menu can be displayed in a left panel using an icon link.
+		An introductory paragraph describing Colombian Tamales.
+		A listview with dividers of links to the "cooking" pages.
+-->
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>How to Make Colombian Tamales - Cooking</title>
+
+	<!-- ============================    HEADER LINKS  ========================= -->
+	<!-- ============================       CSS        ========================= -->
+	<!-- Specific Requirement#2k custom theme using themeroller -->
+	<link rel="stylesheet" href="themes/Tamales.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<link rel='stylesheet' href='css/styles.css'>
+
+	<!-- ===========================        JS         ========================  -->
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+
+	<!-- Specific Requirement#2b All pages must have page titles -->
+	<div id="cooking" data-role="page" data-theme="a" data-title="Colombia Tamales - Cooking">
+
+
+		<!-- Specific Requirement#2i panel widget  LEFT PANEL MENU -->
+		<div data-role="panel" data-position="left" id="siteMapA" data-display="overlay">
+
+	    <div>
+	      <ul data-role="listview" data-inset="true" data-shadow="false">
+					<li><a href="ingredients.html" rel="external" data-transition="flip"> Ingredients</a></li>
+					<li><a href="nightBefore.html" data-transition="flow"> The Night Before</a></li>
+					<li><a href="meatDough.html" data-transition="turn"> Meats and the Dough</a></li>
+					<li><a href="otherIngredients.html" data-transition="slideup"> Other Ingredients</a></li>
+					<li><a href="assembling.html" data-transition="slidedown"> Assembling</a></li>
+					<li><a href="serving.html" rel="external" data-transition="pop"> Serving Suggestions</a></li>
+	      </ul>
+	    </div>
+
+		</div>
+
+
+	<!-- ===================     JQUERY MOBILE HEADER  ========================  -->
+		<!-- Specific Requirement#2e All pages must have headers and footers -->
+		<div data-role="header" data-position="inline">
+
+			<h1>Colombian Tamales</h1>
+
+			<!-- Specific Requirement#2f Navigation must be implemented by use of a Navbar -->
+	    <div data-role="navbar">
+				<ul>
+	  			<li>
+	         <!-- Specific Requirement#2d  transition -->
+	          <a href="index.html" data-transition="flip" data-icon="home">Home</a>
+	        </li>
+	  			<li>
+	          <!-- Specific Requirement#2d  transition -->
+						<a href="cooking.html" data-icon="action" data-transition="flip">Cooking</a>
+	        </li>
+	  			<li>
+	          <!-- Specific Requirement#2d  transition -->
+	          <a href="feedback.html" data-icon="info" data-transition="flip">Feedback</a>
+	        </li>
+				</ul>
+			</div>
+
+		</div>
+
+		<!-- ===================   JQUERY MOBILE MAIN   =========================  -->
+		<div data-role="content" data-theme="a">
+			<div id="menuDiv">
+				<!-- Specific Requirement#2j Icons must be implemented throughout the application  MENU ICON -->
+				<a data-ajax="false" href="#siteMapA" class="ui-btn ui-icon-bars ui-btn-icon-notext ui-corner-all" title="Menu">Menu</a>
+
+			</div>
+
+			<h2>Cooking Colombian Tamales</h2>
+
+			<div class="ui-body ui-body-b ui-corner-all">
+				<p>
+					Tamales are one of the most typical dishes in Colombia (South America).
+					Usually a tamale is served for breakfast with hot chocolate and warm bread rolls;
+					however you can present this delicious meal for luch or dinner as well.<br><br>
+
+					Although this is not an easy recipe, sure you will find it very tasty.<br>
+				</p>
+				<img src="images/tamales2.jpg" width="100%">
+			</div>
+
+			<h3>Follow the next steps in order</h3>
+
+			<!-- Specific Requirement#2g list with dividers -->
+			<!-- Specific Requirement#2d transitions -->
+			<ul data-role="listview" data-inset="true" data-divider-theme="b">
+				<li data-role="list-divider">Before Cooking</li>
+					<li><a href="ingredients.html" rel="external" data-transition="pop">Ingredients</a></li>
+					<li><a href="nightBefore.html"  data-transition="flip">The Night Before</a></li>
+				<li data-role="list-divider" >Preparation</li>
+					<li><a href="meatDough.html"  data-transition="fade">Meats and the Dough</a></li>
+					<li><a href="otherIngredients.html" data-transition="turn">Other Ingredients</a></li>
+					<li><a href="assembling.html" data-transition="flow">Assembling the Tamales</a></li>
+				<li data-role="list-divider">How to serve</li>
+					<li><a href="serving.html"  rel="external" data-transition="slidedown">Serving Suggestions</a></li>
+			</ul>
+
+		</div> <!-- END CONTENT -->
+
+		<!-- ==================== JQUERY MOBILE FOOTER  ============================ -->
+		<!-- Specific Requirement#2e All pages must have headers and footers -->
+	  <div data-role="footer">
+	    <h4>Ana Herrera &copy; 2018</h4>
+	  </div>
+
+	</div> <!-- END PAGE -->
+
+</body>
+
+</html>

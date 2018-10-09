@@ -1,0 +1,151 @@
+<!--
+  ISLT 4375/7375 Mobile Web Application Development
+  Final Project (How to Make Colombian Tamales Tutorial)
+  Herrera Ana
+	Meat & Dough Page: In this page you can find:
+		A top Navigation bar in the header links the three main pages of this tutorial.
+		A listview menu can be displayed in a left panel using an icon link.
+		Two paragraphs inform the user how to cook the Meats and the dough.
+		One picture is displayed for the dough.
+		A footer navigation bar with two link to the last and next page.
+-->
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>How to Make Colombian Tamales - Meats & Dough</title>
+
+	<!-- ============================    HEADER LINKS  ========================= -->
+	<!-- ============================       CSS        ========================= -->
+	<!-- Specific Requirement#2k custom theme using themeroller -->
+	<link rel="stylesheet" href="themes/Tamales.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<link rel='stylesheet' href='css/styles.css'>
+
+	<!-- ===========================        JS         ========================  -->
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+	<!-- Specific Requirement#2b All pages must have page titles -->
+	<div id="meatDough" data-role="page" data-theme="a" data-title="Colombia Tamales - Meats & Dough">
+
+
+		<!-- Specific Requirement#2i panel -->
+		<div data-role="panel" data-position="left" id="siteMapD" data-display="overlay">
+
+			<div>
+	      <ul data-role="listview" data-inset="true" data-shadow="false">
+					<li><a href="ingredients.html" data-transition="flip"> Ingredients</a></li>
+					<li><a href="nightBefore.html" data-transition="flow"> The Night Before</a></li>
+					<li><a href="meatDough.html" data-transition="turn"> Meats and the Dough</a></li>
+					<li><a href="otherIngredients.html" data-transition="slideup"> Other Ingredients</a></li>
+					<li><a href="assembling.html" data-transition="slidedown"> Assembling</a></li>
+					<li><a href="serving.html"  rel="external"  data-transition="pop"> Serving Suggestions</a></li>
+	      </ul>
+	    </div>
+
+		</div>
+
+
+	<!-- ===================     JQUERY MOBILE HEADER  ========================  -->
+		<!-- Specific Requirement#2e All pages must have headers and footers -->
+		<div data-role="header" data-position="inline">
+
+		<h1>Colombian Tamales</h1>
+
+			<!-- Specific Requirement#2f Navigation must be implemented by use of a Navbar -->
+	    <div data-role="navbar">
+				<ul>
+	  			<li>
+	         <!-- Specific Requirement#2d  transition -->
+	          <a href="index.html" data-icon="home" data-transition="pop" >Home</a>
+	        </li>
+	  			<li>
+	          <!-- Specific Requirement#2d  transition -->
+						<a href="cooking.html" data-icon="action" data-transition="fade">Cooking</a>
+	        </li>
+	  			<li>
+	          <!-- Specific Requirement#2d  transition -->
+	          <a href="feedback.html" data-icon="info" data-transition="flip">Feedback</a>
+	        </li>
+				</ul>
+			</div>
+
+		</div>
+
+		<!-- ===================   JQUERY MOBILE MAIN   =========================  -->
+		<div data-role="content" data-theme="a">
+			<div id="menuDiv">
+				<!-- Specific Requirement#2j Icons must be implemented throughout the application -->
+				<a data-ajax="false" href="#siteMapD" class="ui-btn ui-icon-bars ui-btn-icon-notext ui-corner-all" title="Menu">Menu</a>
+			</div>
+
+			<h2>Preparing Meats and Dough</h2>
+
+			<div class="ui-body ui-body-b ui-corner-all">
+				<h3>First Meats</h3>
+				<p>
+					<ul>
+						<li>Place all the meats in a deep bowl, covering with water so you
+							can have enough broth for cooking the rice and the dough.</li>
+						<li>Boil them for 20 minutes or until they are completely cooked.</li>
+						<li>Reserved the broth for the dough and let the meats to cool down. Then cut the
+						beef and pork in portions for each tamale.</li>
+					</ul>
+				</p>
+			</div>
+			<br>
+			<div class="ui-body ui-body-b ui-corner-all">
+				<h3>Then the Dough</h3>
+				<p>
+					<ul>
+						<li>Prepare the rice using the broth left by the meats. As the broth already
+								has salt, use only the half of the regular mesure to season it.</li>
+						<li>Boil the peas in water until they are soft.</li>
+						<li>Place the corn flour, the rice and the peas in a large bowl.
+							Add cumin, red peper and the reserved marinade.
+							Add 1 cup of broth and mix well with a wooden spoon or your hands.
+							The dough will be ready when it is fairly moist, but still stay together when pressed.
+							If it is too wet you can still use it. If it is too dry, add more broth or water.</li>
+						</ul>
+				</p>
+				<div style="text-align:center;">
+					<img src="images/dough.jpg" alt="Photo landscape" width="80%">
+				</div>
+
+			</div>
+
+		</div>
+
+
+		<!-- ==================== JQUERY MOBILE FOOTER  ============================ -->
+		<!-- Specific Requirement#2e All pages must have headers and footers -->
+	  <div data-role="footer">
+
+			<!-- Specific Requirement#2f Navigation must be implemented by use of a Navbar -->
+	    <div data-role="navbar" id="footerNavBarC" data-iconpos="right">
+				<ul>
+	  			<li>
+	         <!-- Specific Requirement#2d  transition -->
+	          <a href="nightBefore.html" data-icon="back" data-transition="pop">Back</a>
+	        </li>
+	  			<li>
+	          <!-- Specific Requirement#2d  transition -->
+	          <a href="otherIngredients.html" data-icon="forward" data-transition="pop">Next</a>
+	        </li>
+				</ul>
+			</div>
+
+	    <h4>Ana Herrera &copy; 2018</h4>
+	  </div>
+
+	</div> <!-- END PAGE -->
+
+</body>
+
+</html>

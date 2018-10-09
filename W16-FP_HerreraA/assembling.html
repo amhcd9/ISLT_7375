@@ -1,0 +1,194 @@
+<!--
+  ISLT 4375/7375 Mobile Web Application Development
+  Final Project (How to Make Colombian Tamales Tutorial)
+  Herrera Ana
+	Assembling Page: In this page you can find:
+		A top Navigation bar in the header links the three main pages of this tutorial.
+		A listview menu can be displayed in a left panel using an icon link.
+		A listview with headings, Count bubbles, and thumbnails split the steps to assemble the tamales.
+		A footer navigation bar with two link to the last and next page.
+-->
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>How to Make Colombian Tamales - Assembling</title>
+
+	<!-- ============================    HEADER LINKS  ========================= -->
+	<!-- ============================       CSS        ========================= -->
+	<!-- Specific Requirement#2k custom theme using themeroller -->
+	<link rel="stylesheet" href="themes/Tamales.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<link rel='stylesheet' href='css/styles.css'>
+
+	<!-- ===========================        JS         ========================  -->
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+
+	<div id="assembling" data-role="page" data-theme="a" data-title="Colombia Tamales - Assembling">
+
+
+		<!-- Specific Requirement#2i panel MENU -->
+		<div data-role="panel" data-position="left" id="siteMapF" data-display="overlay">
+
+			<div>
+	      <ul data-role="listview" data-inset="true" data-shadow="false">
+					<li><a href="ingredients.html" data-transition="flip"> Ingredients</a></li>
+					<li><a href="nightBefore.html" data-transition="flow"> The Night Before</a></li>
+					<li><a href="meatDough.html" data-transition="turn"> Meats and the Dough</a></li>
+					<li><a href="otherIngredients.html" data-transition="slideup"> Other Ingredients</a></li>
+					<li><a href="assembling.html" data-transition="slidedown"> Assembling</a></li>
+					<li><a href="serving.html" rel="external" data-transition="pop"> Serving Suggestions</a></li>
+	      </ul>
+	    </div>
+
+		</div>
+
+
+	<!-- ===================     JQUERY MOBILE HEADER  ========================  -->
+		<!-- Specific Requirement#2e All pages must have headers and footers -->
+		<div data-role="header" data-position="inline">
+
+			<!-- Specific Requirement#2b All pages must have page titles -->
+			<h1>Colombian Tamales</h1>
+
+			<!-- Specific Requirement#2f Navigation must be implemented by use of a Navbar -->
+	    <div data-role="navbar">
+				<ul>
+	  			<li>
+	         <!-- Specific Requirement#2d  transition -->
+	          <a href="index.html" data-icon="home" data-transition="pop" >Home</a>
+	        </li>
+	  			<li>
+	          <!-- Specific Requirement#2d  transition -->
+						<a href="cooking.html" data-icon="action" data-transition="fade">Cooking</a>
+	        </li>
+	  			<li>
+	          <!-- Specific Requirement#2d  transition -->
+	          <a href="feedback.html" data-icon="info" data-transition="flip">Feedback</a>
+	        </li>
+				</ul>
+			</div>
+
+		</div>
+
+		<!-- ===================   JQUERY MOBILE MAIN   =========================  -->
+		<div data-role="content" data-theme="a">
+			<div id="menuDiv">
+				<!-- Specific Requirement#2j Icons must be implemented throughout the application -->
+				<a data-ajax="false" href="#siteMapF" class="ui-btn ui-icon-bars ui-btn-icon-notext ui-corner-all" title="Menu">Menu</a>
+			</div>
+
+			<h2>Assembling and Cooking the Tamales</h2>
+
+
+				<ul data-role="listview" data-inset="true" >
+					<li data-role="list-divider">The Bed of Leaves<span class="ui-li-count">1</span></li>
+						<li>
+							<img src="images/leaves.jpg">
+							<h3>The Banana Leaves</h3>
+							<p>
+								Wash the banana leaves under warm water.<br>
+								Let the leaves rest on hot water in a large pot for one minute.<br>
+								Remove the leaves from the water when they are tender and easy to bend without cracking.<br>
+								Select one large banana leaf as the base of each tamale.<br>
+								Place two more banana leaves over the based leaf, one above the other.<br>
+								The leaves should be pointing in the opposite direction, like forming a cross.
+							</p>
+						</li>
+					<li data-role="list-divider">Adding Ingredients<span class="ui-li-count">2</span></li>
+						<li>
+							<img src="images/dough.jpg" width="100%">
+							<h3>The Dough</h3>
+							<p>Place a 1/2 of cup of dough in the center of the bed of leaves and spread it out.</p>
+						</li>
+						<li>
+							<img src="images/assembling.jpg" width="100%">
+							<h3>Adding Meats and Others Ingredients</h3>
+							<p>
+									Over the dough put one piece of beef,<br>
+									a slice of carrot,<br>
+									a chunk of potato,<br>
+								  a portion of pork,<br>
+									another slice of carrot,<br>
+									another chunk of potato,<br>
+									one chicken drumette,<br>
+									and one portion of egg.<br>
+									Top it with another 1/2 of dough.<br><br>
+									This does not have to be uniform!
+							</p>
+						</li>
+					<li data-role="list-divider">Closing<span class="ui-li-count">3</span></li>
+						<li>
+							<img src="images/closeTamal.jpg" width="100%">
+							<h3>Closing the Tamales</h3>
+							<p>
+								 There are different ways to close the tamale.<br>
+								 You can choose how to arrange the leaves<br>
+								 so the presentation of your final tamale will change.<br><br>
+								 To form a rounded tamale:<br>
+								 Pull up the leaves creating a spherical shape<br>
+								  and then tie the top with the kitchen string.<br><br>
+								 To form a Rectangular tamale:<br>
+								 Wrap the four ends of the leaves to form a packet <br>
+								 and then tie it around with the kitchen string.<br><br>
+								 Do not let any of the filling seep out.<br>
+								 If the leaves break just reinforce with extra banana leaves.
+							 </p>
+						</li>
+						<li data-role="list-divider">Cooking<span class="ui-li-count">4</span></li>
+							<li>
+								<img src="images/cooking.jpg" width="100%">
+								<h3>Cooking the Tamales</h3>
+								<p>
+									Use a large pot with steamer basket
+									so the tamales do not touch the water in the bottom.<br>
+									Stack the tamales all the way to the top in the steamer pot.<br>
+									Add water to cover almost all the tamales.<br>
+									Cover the pot and bring it to a boil.<br>
+									Lower the heat and simmer about 3 hours.<br><br>
+									Keep checking the water level.<br>
+									You probably will have to replenish the water during the cooking process.
+								 </p>
+							</li>
+					</ul>
+
+				</ul>
+
+
+			</div>
+
+
+			<!-- ==================== JQUERY MOBILE FOOTER  ============================ -->
+			<!-- Specific Requirement#2e All pages must have headers and footers -->
+			<div data-role="footer">
+
+				<!-- Specific Requirement#2f Navigation must be implemented by use of a Navbar -->
+				<div data-role="navbar" id="footerNavBarE" data-iconpos="right">
+					<ul>
+						<li>
+						 <!-- Specific Requirement#2d  transition -->
+							<a href="otherIngredients.html" data-icon="back" data-transition="flow">Back</a>
+						</li>
+						<li>
+							<!-- Specific Requirement#2d  transition -->
+							<a href="serving.html" data-icon="forward" rel="external" data-transition="flow">Next</a>
+						</li>
+					</ul>
+				</div>
+
+				<h4>Ana Herrera &copy; 2018</h4>
+			</div>
+
+
+	</div> <!-- END PAGE -->
+
+</body>
+
+</html>

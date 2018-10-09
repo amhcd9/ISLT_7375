@@ -1,0 +1,187 @@
+<!--
+  ISLT 4375/7375 Mobile Web Application Development
+  Final Project (How to Make Colombian Tamales Tutorial)
+  Herrera Ana
+	Other Ingredients Page: In this page you can find:
+		A top Navigation bar in the header links the three main pages of this tutorial.
+		A listview menu can be displayed in a left panel using an icon link.
+		A collapsible displays how to cook other ingredients.
+		Images and Text are distribute in grids inside the collapsibles.
+		A footer navigation bar with two link to the last and next page.
+-->
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>How to Make Colombian Tamales - Other Ingredients</title>
+
+	<!-- ============================    HEADER LINKS  ========================= -->
+	<!-- ============================       CSS        ========================= -->
+	<!-- Specific Requirement#2k custom theme using themeroller -->
+	<link rel="stylesheet" href="themes/Tamales.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<link rel='stylesheet' href='css/styles.css'>
+
+	<!-- ===========================        JS         ========================  -->
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+	<!-- Specific Requirement#2b All pages must have page titles -->
+	<div id="otherIngr" data-role="page" data-theme="a" data-title="Colombia Tamales - Other Ingredients">
+
+
+		<!-- Specific Requirement#2i Panel MENU -->
+		<div data-role="panel" data-position="left" id="siteMapE" data-display="overlay">
+
+			<div>
+	      <ul data-role="listview" data-inset="true" data-shadow="false">
+					<li><a href="ingredients.html" data-transition="flip"> Ingredients</a></li>
+					<li><a href="nightBefore.html" data-transition="flow"> The Night Before</a></li>
+					<li><a href="meatDough.html" data-transition="turn"> Meats and the Dough</a></li>
+					<li><a href="otherIngredients.html" rel="external" data-transition="slideup"> Other Ingredients</a></li>
+					<li><a href="assembling.html" data-transition="slidedown"> Assembling</a></li>
+					<li><a href="serving.html"  rel="external" data-transition="pop"> Serving Suggestions</a></li>
+	      </ul>
+	    </div>
+
+		</div>
+
+
+	<!-- ===================     JQUERY MOBILE HEADER  ========================  -->
+		<!-- Specific Requirement#2e All pages must have headers and footers -->
+		<div data-role="header" data-position="inline">
+
+			<h1>Colombian Tamales</h1>
+
+			<!-- Specific Requirement#2f Navigation must be implemented by use of a Navbar -->
+	    <div data-role="navbar">
+				<ul>
+	  			<li>
+	         <!-- Specific Requirement#2d  transition -->
+	          <a href="index.html" data-icon="home" data-transition="pop" >Home</a>
+	        </li>
+	  			<li>
+	          <!-- Specific Requirement#2d  transition -->
+						<a href="cooking.html" data-icon="action" data-transition="fade">Cooking</a>
+	        </li>
+	  			<li>
+	          <!-- Specific Requirement#2d  transition -->
+	          <a href="feedback.html" data-icon="info" data-transition="flip">Feedback</a>
+	        </li>
+				</ul>
+			</div>
+
+		</div>
+
+		<!-- ===================   JQUERY MOBILE MAIN   =========================  -->
+		<div data-role="content" data-theme="a">
+			<div id="menuDiv">
+				<!-- Specific Requirement#2j Icons must be implemented throughout the application -->
+				<a data-ajax="false" href="#siteMapE" class="ui-btn ui-icon-bars ui-btn-icon-notext ui-corner-all" title="Menu">Menu</a>
+			</div>
+
+			<h2>Preparing the Rest of the Ingredients</h2>
+
+			<!-- Specific Requirement#2i collapsible -->
+			<div data-role="collapsibleset" data-theme="a" data-content-theme="b">
+
+				<div data-role="collapsible">
+					<h3>Carrots</h3>
+					<!-- Specific Requirement#2i grid Widget -->
+					<div class="ui-grid-a">
+
+						<div class="ui-block-a">
+							<img src="images/carrots.jpg" width="100%">
+						</div>
+
+						<div class="ui-block-b">
+							<ul>
+								<li>Peel the carrots.</li>
+								<li>Slice the carrots about 1/2 inches. Cut at least 2 slices per tamale.</li>
+								<li>Place the carrots into a pot with cold water.</li>
+								<li>Cover the pot and bring it to a boil, lower the heat and simmer
+									until they are cooked.</li>
+								<li>Drain and set aside.</li>
+							</ul>
+						</div>
+
+				</div> <!-- END GRID -->
+			</div> <!-- END COLLAPSIBLE -->
+
+				<div data-role="collapsible">
+					<h3>Potatoes</h3>
+					<div class="ui-grid-a">
+
+						<div class="ui-block-a">
+							<img src="images/red-potatoes.jpg" width="100%">
+						</div>
+
+						<div class="ui-block-b">
+							<ul>
+								<li>Peel the potatoes.</li>
+								<li>Cut the potatoes about 1 1/2 inches thick.</li>
+								<li>Place the potatoes into a pot with cold water.</li>
+								<li>Cover the pot and bring it to a boil, lower the heat and simmer
+									until they are cooked.</li>
+								<li>Drain and reserve the potatoes.</li>
+							</ul>
+						</div>
+
+					</div> <!-- END GRID -->
+				</div> <!-- END COLLAPSIBLE -->
+
+				<div data-role="collapsible">
+					<h3>Eggs</h3>
+					<div class="ui-grid-a">
+
+						<div class="ui-block-a">
+							<img src="images/eggs.jpg" width="100%">
+						</div>
+
+						<div class="ui-block-b">
+							<ul>
+								<li>Place the eggs into a pot and cover them with cold water by 1 inch.</li>
+								<li>Cover the pot and bring it to a boil, lower the heat and cook about 10 minutes.</li>
+								<li>Drain, peel and slice each egg in 4 pieces.</li>
+							</ul>
+						</div>
+
+					</div> <!-- END GRID -->
+				</div> <!-- END COLLAPSIBLE -->
+
+			</div> <!-- END COLLAPSIBLESET -->
+
+		</div>
+
+
+		<!-- ==================== JQUERY MOBILE FOOTER  ============================ -->
+		<!-- Specific Requirement#2e All pages must have headers and footers -->
+		<div data-role="footer">
+
+			<!-- Specific Requirement#2f Navigation must be implemented by use of a Navbar -->
+			<div data-role="navbar" id="footerNavBarD" data-iconpos="right">
+				<ul>
+					<li>
+					 <!-- Specific Requirement#2d  transition -->
+						<a href="meatDough.html" data-icon="back" data-transition="fade">Back</a>
+					</li>
+					<li>
+						<!-- Specific Requirement#2d  transition -->
+						<a href="assembling.html" rel="external" data-icon="forward" data-transition="fade">Next</a>
+					</li>
+				</ul>
+			</div>
+
+			<h4>Ana Herrera &copy; 2018</h4>
+		</div>
+
+	</div> <!-- END PAGE -->
+
+</body>
+
+</html>

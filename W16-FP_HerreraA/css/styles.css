@@ -1,0 +1,71 @@
+/*
+  ISLT 4375/7375 Mobile Web Application Development
+  Final Project (How to Make Colombian Tamales Tutorial)
+  Herrera Ana
+	javascript and JQuery coding
+*/
+
+
+/* Titles Transformations */
+h1{
+  font-size: 14px !important;
+}
+
+h2{
+  font-size: 19px;
+  color: #006837;
+}
+
+h3{
+  font-size: 16px;
+}
+
+h4{
+  font-size: 12px !important;
+}
+
+/* subtitle table ingredients */
+.ingredient_sub{
+  background-color: #006837;
+  color: white;
+}
+
+
+/* Theme alteration background-color */
+.ui-body-a{
+  background-color: #b7d7c5 !important;
+}
+
+/* Force the cooking menu icon to float right */
+#menuDiv{
+  float: right;
+}
+
+
+/* Breakpoint at 800px */
+@media all and (min-width: 50em){
+	.ui-page {
+    width:800px !important;
+    border: 2px solid gray !important;
+    box-shadow: 0 4px 8px 0 #867c71, 0 6px 20px 0 #867c71;
+  }
+}
+
+
+/* Define a new breakpoint for the ingredients table so the table is vertical */
+@media ( min-width: 20em ) {
+  /* Show the table header rows and set all cells to display: table-cell */
+  .ingredients-tbl td,
+  .ingredients-tbl th,
+  .ingredients-tbl tbody th,
+  .ingredients-tbl tbody td,
+  .ingredients-tbl thead td,
+  .ingredients-tbl thead th {
+    display: table-cell;
+    margin: 0;
+  }
+  /* Hide the labels in each cell */
+  .ingredients-tbl td .ui-table-cell-label, .ingredients-tbl th .ui-table-cell-label {
+    display: none;
+  }
+}

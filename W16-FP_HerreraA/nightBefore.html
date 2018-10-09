@@ -1,0 +1,170 @@
+<!--
+  ISLT 4375/7375 Mobile Web Application Development
+  Final Project (How to Make Colombian Tamales Tutorial)
+  Herrera Ana
+	Night Before Page: In this page you can find:
+		A top Navigation bar in the header links the three main pages of this tutorial.
+		A listview menu can be displyed in a left panel using an icon link.
+		Two blocks grid of information teach the user how	to prepare the meats and the hogao.
+		Two pictures are displayed in a pop-up Widget.
+		A footer navigation bar with two link to the last and next page.
+-->
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>How to Make Colombian Tamales - Night Before</title>
+
+	<!-- ============================    HEADER LINKS  ========================= -->
+	<!-- ============================       CSS        ========================= -->
+	<!-- Specific Requirement#2k custom theme using themeroller -->
+	<link rel="stylesheet" href="themes/Tamales.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<link rel='stylesheet' href='css/styles.css'>
+
+	<!-- ===========================        JS         ========================  -->
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+	<!-- Specific Requirement#2b All pages must have page titles -->
+	<div id="before" data-role="page" data-theme="a" data-title="Colombia Tamales - Night Before">
+
+
+		<!-- Specific Requirement#2i panel MENU -->
+		<div data-role="panel" data-position="left" id="siteMapC" data-display="overlay">
+
+			<div>
+	      <ul data-role="listview" data-inset="true" data-shadow="false">
+					<li><a href="ingredients.html" data-transition="flip"> Ingredients</a></li>
+					<li><a href="nightBefore.html" data-transition="flow"> The Night Before</a></li>
+					<!-- Specific Requirement#2d  Page is prefetched with a transition -->
+					<li><a href="meatDough.html" data-prefetch="true" data-transition="turn"> Meats and the Dough</a></li>
+					<li><a href="otherIngredients.html" data-transition="slideup"> Other Ingredients</a></li>
+					<li><a href="assembling.html" data-transition="slidedown"> Assembling</a></li>
+					<li><a href="serving.html"  rel="external" data-transition="pop"> Serving Suggestions</a></li>
+	      </ul>
+	    </div>
+
+		</div>
+
+
+	<!-- ===================     JQUERY MOBILE HEADER  ========================  -->
+		<!-- Specific Requirement#2e All pages must have headers and footers -->
+		<div data-role="header" data-position="inline">
+
+			<h1>Colombian Tamales</h1>
+
+			<!-- Specific Requirement#2f Navigation must be implemented by use of a Navbar -->
+	    <div data-role="navbar">
+				<ul>
+	  			<li>
+	         <!-- Specific Requirement#2d  transition -->
+	          <a href="index.html" data-icon="home" data-transition="pop" >Home</a>
+	        </li>
+	  			<li>
+	          <!-- Specific Requirement#2d  transition -->
+						<a href="cooking.html" data-icon="action" data-transition="fade">Cooking</a>
+	        </li>
+	  			<li>
+	          <!-- Specific Requirement#2d  transition -->
+	          <a href="feedback.html" data-icon="info" data-transition="flip">Feedback</a>
+	        </li>
+				</ul>
+			</div>
+
+		</div>
+
+		<!-- ===================   JQUERY MOBILE MAIN   =========================  -->
+		<div data-role="content" data-theme="a">
+			<div id="menuDiv">
+				<!-- Specific Requirement#2j Icons must be implemented throughout the application MENU -->
+				<a data-ajax="false" href="#siteMapC" class="ui-btn ui-icon-bars ui-btn-icon-notext ui-corner-all" title="Menu">Menu</a>
+			</div>
+
+			<h2>The Night Before</h2>
+
+			<div class="ui-body ui-body-b ui-corner-all">
+				<p>
+					Preparing the hogao and marinading the meats the night before guarantees you a tasty tamale.
+
+				</p>
+			</div>
+
+			<!-- Specific Requirement#2i grid Widget -->
+			<div class="ui-grid-a" >
+				<div class="ui-block-a" style="padding:5px;">
+					<h3>For the Meats</h3>
+
+					<!-- Specific Requirement#2i popup -->
+					<a href="#marinadePic" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">Marinade Picture</a>
+					<div data-role="popup" id="marinadePic" class="photopopup" data-overlay-theme="a" data-corners="false" data-tolerance="30,15">
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img src="images/marinadeMeat.jpg" alt="Photo landscape">
+					</div>
+
+					<p>Use only 1/4 of the quantity describe into the ingredients list for the marinade.<br>
+						Combine chop green onions, minced garlic, ground cumin and the other seasoning. <br>
+						Rub mixture all over the beef, chicken and pork.<br>
+						Place meat in separate plastic baggies to marinate in the refrigerator overnight.
+					</p>
+
+
+				</div>
+
+
+				<div class="ui-block-b" style="padding:5px;">
+					<h3>For the Hogao</h3>
+
+					<!-- Specific Requirement#2i popup -->
+					<a href="#hogaoPic" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">Hogao Picture</a>
+					<div data-role="popup" id="hogaoPic" class="photopopup" data-overlay-theme="a" data-corners="false" data-tolerance="30,15">
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img src="images/hogao.jpg" alt="Photo landscape">
+					</div>
+
+					<p>The “hogao” is a kind of stir-fry.<br>
+						 Use the rest (3/4) of the quantity describe into the ingredients list for the marinade to make the hogao.<br>
+						 Combine chopped tomatoes, chopped green onions, minced garlic, ground cumin, seasoning, olive oil and salt in a skillet and saute until everything is soft and tender,
+						kind of like a mush.<br>
+						Cool and refrigerate it until everything is ready to start assembling the tamales.</p>
+
+				</div>
+
+			</div> <!-- END GRID -->
+
+			<br>
+			<br>
+
+
+		</div>
+
+		<!-- ==================== JQUERY MOBILE FOOTER  ============================ -->
+		<!-- Specific Requirement#2e All pages must have headers and footers -->
+	  <div data-role="footer">
+
+			<!-- Specific Requirement#2f Navigation must be implemented by use of a Navbar -->
+	    <div data-role="navbar" id="footerNavBarB" data-iconpos="right">
+				<ul>
+	  			<li>
+	         <!-- Specific Requirement#2d  transition -->
+	          <a href="ingredients.html" data-icon="back" data-transition="flip">Back</a>
+	        </li>
+	  			<li>
+	          <!-- Specific Requirement#2d  Page is prefetched with a transition -->
+	          <a href="meatDough.html" data-prefetch="true" data-icon="forward" data-transition="flip">Next</a>
+	        </li>
+				</ul>
+
+			</div>
+
+	    <h4>Ana Herrera &copy; 2018</h4>
+	  </div>
+
+	</div> <!-- END PAGE -->
+
+</body>
+
+</html>

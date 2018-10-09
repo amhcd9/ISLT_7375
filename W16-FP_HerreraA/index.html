@@ -1,0 +1,118 @@
+<!--
+  ISLT 4375/7375 Mobile Web Application Development
+  Final Project (How to Make Colombian Tamales Tutorial)
+  Herrera Ana
+	Home Page: This page you can find:
+		A top Navigation bar in the header links the three main pages of this tutorial.
+		A welcome paragraph and instruction paragraph.
+		A button at the bottom of the page linking to the cooking page.
+-->
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>How to Make Colombian Tamales - Home</title>
+
+	<!-- ============================    HEADER LINKS  ========================= -->
+	<!-- ============================       CSS        ========================= -->
+	<!-- Specific Requirement#2k custom theme using themeroller -->
+	<link rel="stylesheet" href="themes/Tamales.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<link rel='stylesheet' href='css/styles.css'>
+
+	<!-- ===========================        JS         ========================  -->
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script src="js/main.js"></script>
+</head>
+
+<body>
+
+	<!-- Specific Requirement#2b All pages must have page titles -->
+	<div id="home" data-role="page" data-theme="a" data-title="Colombia Tamales - Home">
+
+	<!-- ===================     JQUERY MOBILE HEADER  ========================  -->
+		<!-- Specific Requirement#2e All pages must have headers and footers -->
+		<div data-role="header" data-position="inline">
+
+			<h1>Colombian Tamales</h1>
+
+			<!-- Specific Requirement#2f Navigation must be implemented by use of a Navbar -->
+	    <div data-role="navbar">
+				<ul>
+	  			<li>
+	          <!-- Specific Requirement#2d  transition -->
+	          <a href="index.html" data-transition="flow" data-icon="home">Home</a>
+	        </li>
+	  			<li>
+	          <!-- Specific Requirement#2d  Page is prefetched with a transition -->
+						<a href="cooking.html" data-prefetch="true" data-icon="action" data-transition="flow">Cooking</a>
+	        </li>
+	  			<li>
+	         <!-- Specific Requirement#2c Page is prefetched with a transition -->
+	          <a href="feedback.html" data-prefetch="true" data-icon="info" data-transition="flow">Feedback</a>
+	        </li>
+				</ul>
+			</div>
+
+		</div>
+
+		<!-- ===================   JQUERY MOBILE MAIN   =========================  -->
+		<div data-role="content" data-theme="a">
+
+			<div class="ui-body ui-body-b ui-corner-all">
+				<h2>Welcome</h2>
+				<p>
+					Welcome to the Tutorial "How to make Colombian Tamales".
+					<br><br>
+					<a href="https://en.wikipedia.org/wiki/Tamale" target="_blank">Tamales</a> are one of the most traditional Mesoamerican dish made of dough (starchy, and usually corn-based),
+					wrapped in a corn husk or banana leaf.
+					(<a href="https://en.wikipedia.org/wiki/Tamale" target="_blank">Wikipedia</a>).
+					<br><br>
+					The Spanish singular for tamales is tamal, which is derived from tamalli, coming from the ancient Nahuatl language used by the Aztec people.
+					The English word tamale differs from the Spanish word by having a final vowel.
+					<br><br>
+					The tamale can vary a lot from its place of origen. In this tutorial you will learn how to make tamales from Tolima (Colombia).
+				</p>
+			</div>
+
+			<img src="./images/tamales1.jpg" width="100%">
+
+			<div class="ui-body ui-body-b ui-corner-all">
+				<h2>Instructions</h2>
+				<p>Use the "Cooking" button at the top navigation bar to start this tutorial, or just click on the button below this paragraph.<br>
+					<br>Read the instruction in each page and then click on the "Next" button at the bottom of the page to go to the next step.<br>
+					<br>For jumping between pages, use the menu icon below the top navigation bar.<br>
+					<br>After completing this tutorial, please give us your evalution using the "Feedback" button at the top navigation bar.
+				</p>
+
+				<!-- Specific Requirement#2f Button -->
+				<button id="startBtn" class="ui-btn ui-corner-all ui-icon-forward ui-btn-icon-right">Start your Tutorial</button>
+
+			</div>
+
+			<br><br>
+
+			<!-- Related Links -->
+			<div style="text-align:right;">
+				<a href="project_plan.pdf" target="_blank">Check the project plan of this application</a>
+				<br>
+				<a href="https://balsamiq.cloud/sfn99hk/pcdcsw3/r2278" target="_blank">Check the wireframe of this application</a>
+			</div>
+
+		</div>
+
+		<!-- ==================== JQUERY MOBILE FOOTER  ============================ -->
+		<!-- Specific Requirement#2e All pages must have headers and footers -->
+	  <div data-role="footer">
+	    <h4>Ana Herrera &copy; 2018</h4>
+	  </div>
+
+	</div> <!-- END PAGE -->
+
+</body>
+
+</html>

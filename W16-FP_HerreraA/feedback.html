@@ -1,0 +1,206 @@
+<!--
+  ISLT 4375/7375 Mobile Web Application Development
+  Final Project (How to Make Colombian Tamales Tutorial)
+  Herrera Ana
+	Feedback Page: In this page you can find:
+		A top Navigation bar in the header links the three main pages of this tutorial.
+		An introductory paragraph.
+		A form with 9 questions with different field types and submit button.
+-->
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>How to Make Colombian Tamales - Feedback</title>
+
+	<!-- ============================    HEADER LINKS  ========================= -->
+	<!-- ============================       CSS        ========================= -->
+	<!-- Specific Requirement#2k custom theme using themeroller -->
+	<link rel="stylesheet" href="themes/Tamales.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<link rel='stylesheet' href='css/styles.css'>
+
+	<!-- ===========================        JS         ========================  -->
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script src="js/main.js"></script>
+</head>
+
+<body>
+	<!-- Specific Requirement#2b All pages must have page titles -->
+	<div id="feedback" data-role="page" data-theme="a" data-title="Colombia Tamales - Feedback">
+
+	<!-- ===================     JQUERY MOBILE HEADER  ========================  -->
+		<!-- Specific Requirement#2e All pages must have headers and footers -->
+		<div data-role="header" data-position="inline">
+
+			<h1>Colombian Tamales</h1>
+
+			<!-- Specific Requirement#2f Navigation must be implemented by use of a Navbar -->
+	    <div data-role="navbar">
+				<ul>
+	  			<li>
+	         <!-- Specific Requirement#2d  transition -->
+	          <a href="index.html" data-icon="home" data-transition="pop" >Home</a>
+	        </li>
+	  			<li>
+	          <!-- Specific Requirement#2d  transition -->
+						<a href="cooking.html" data-icon="action" data-transition="fade">Cooking</a>
+	        </li>
+	  			<li>
+	          <!-- Specific Requirement#2d  transition -->
+	          <a href="feedback.html" data-icon="info" data-transition="flip">Feedback</a>
+	        </li>
+				</ul>
+			</div>
+
+		</div>
+
+		<!-- ===================   JQUERY MOBILE MAIN   =========================  -->
+		<div data-role="content" data-theme="a">
+
+			<div class="ui-body ui-body-b ui-corner-all">
+				<h2>Feedback</h2>
+				<p>
+					Your feedback about this tutorial and the "Colombian Tamales" recipe is highly appreciated!<br>
+					You can help us to improve both of them by answering these questions.<br><br>
+					Please fill the form and click the submit button when your finish.
+				</p>
+			</div>
+			<br>
+
+			<!-- Specific Requirement#2h form -->
+			<form action="thankYou.html">
+
+				<!-- Specific Requirement#2h 2/5 Sliders  -->
+				<div class="ui-field-contain">
+		    	<label for="overallTutorial" title="1 = Terrible, 5 = Great">What is your overall rating of this tutorial? </label>
+					<input type="range" name="overallTutorial" id="overoverallTutorialall" min="1" max="5" value="1" data-highlight="true" title="1 = Terrible, 5 = Great">
+				</div>
+
+
+				<hr>
+
+
+
+
+
+				<!-- Specific Requirement#2h 3/5 input radio -->
+				<div class="ui-field-contain">
+				<fieldset data-role="controlgroup" data-type="horizontal">
+					<legend>Did this Tutorial cover all necessary items?</legend>
+
+					<input type="radio" name="cover" id="cover1" value="Yes" checked>
+					<label for="cover1">Yes</label>
+
+					<input type="radio" name="cover" id="cover2" value="No">
+					<label for="cover2">No</label>
+				</fieldset>
+			</div>
+
+
+
+				<!-- Specific Requirement#2h 6/5 textarea -->
+				<div class="ui-field-contain" id="missedDiv" style="display:none;">
+					<label for="missed">What is missed?</label>
+					<textarea name="missed" id="missed" ></textarea>
+				</div>
+
+
+				<hr>
+
+
+					<!-- Specific Requirement#2h 4/5 select -->
+				<div class="ui-field-contain">
+					<label for="length">How was the length of this tutorial?</label>
+					<select name="length" id="length">
+						<option value="right">Just Right</option>
+						<option value="short">Too short</option>
+						<option value="long">Too long</option>
+					</select>
+				</div>
+
+
+				<hr>
+
+
+
+				<!-- Specific Requirement#2h 5/5 input checkbox -->
+				<fieldset data-role="controlgroup">
+					<legend>Pick your favorite topic(s):</legend>
+
+					<input type="checkbox" name="favorite" id="favorite1" value="layout">
+					<label for="favorite1">Ingredients</label>
+
+					<input type="checkbox" name="favorite" id="favorite2" value="title">
+					<label for="favorite2">The Night Before</label>
+
+					<input type="checkbox" name="favorite" id="favorite3" value="slides">
+					<label for="favorite3">Meats & Dough</label>
+
+					<input type="checkbox" name="favorite" id="favorite4" value="script">
+					<label for="favorite4">Other Ingredients</label>
+
+					<input type="checkbox" name="favorite" id="favorite5" value="audio">
+					<label for="favorite5">Assembling</label>
+
+					<input type="checkbox" name="favorite" id="favorite6" value="video">
+					<label for="favorite6">Serving Suggestions</label>
+
+				</fieldset>
+
+
+				<hr>
+
+
+				<!-- Specific Requirement#2h 1/5 input checkbox flipswitch -->
+				<div class="ui-field-contain" >
+					<label for="cooked">Did you actually cook Colombian Tamales using this tutorial?</label>
+					<input type="checkbox" name="cooked" id="cooked" data-role="flipswitch" data-off-text="No" data-on-text="Yes" value="No">
+				</div>
+
+
+				<!-- Specific Requirement#2h 2/5 input range -->
+				<div class="ui-field-contain" id="overallRecipeDiv" style="display:none;" >
+					<label for="overallRecipe" title="1 = Unpalatable, 5 = Delicious">How did you like Colombian Tamales?</label>
+					<input type="range" name="overallRecipe" id="overallRecipe" min="1" max="5" value="1" data-highlight="true" title="1 = Unpalatable, 5 = Delicious">
+				</div>
+
+
+				<hr>
+
+
+				<!-- Specific Requirement#2h 6/5 textarea -->
+				<div class="ui-field-contain">
+					<label for="suggestions">Please offer suggestions for improving this tutorial:</label>
+					<textarea name="suggestions" id="suggestions" ></textarea>
+				</div>
+
+				<!-- Specific Requirement#2h 6/5 textarea -->
+				<div class="ui-field-contain">
+					<label for="comments">Please give us your comments about this recipe:</label>
+					<textarea name="comments" id="comments" ></textarea>
+				</div>
+
+				<br>
+
+			  <input type="submit" name="submit" value="Submit your Feedback" />
+
+			</form>
+
+		</div>
+
+		<!-- ==================== JQUERY MOBILE FOOTER  ============================ -->
+		<!-- Specific Requirement#2e All pages must have headers and footers -->
+	  <div data-role="footer">
+	    <h4>Ana Herrera &copy; 2018</h4>
+	  </div>
+
+	</div> <!-- END PAGE -->
+
+</body>
+
+</html>

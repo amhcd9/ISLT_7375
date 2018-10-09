@@ -1,0 +1,259 @@
+<!--
+  ISLT 4375/7375 Mobile Web Application Development
+  Final Project (How to Make Colombian Tamales Tutorial)
+  Herrera Ana
+	Ingredients Page: In this page you can find:
+		A top Navigation bar in the header links the three main pages of this tutorial.
+		A listview menu can be displayed in a left panel using an icon link.
+		An input text box for the number of tamales to calculate the quantity per ingredient.
+		A table with the list of ingredients.
+		A footer navigation bar with two link to the last and next page.
+-->
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>How to Make Colombian Tamales - Ingredients</title>
+
+	<!-- ============================    HEADER LINKS  ========================= -->
+	<!-- ============================       CSS        ========================= -->
+	<!-- Specific Requirement#2k custom theme using themeroller -->
+	<link rel="stylesheet" href="themes/Tamales.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<link rel='stylesheet' href='css/styles.css'>
+
+
+	<!-- ===========================        JS         ========================  -->
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script src="js/main.js"></script>
+</head>
+
+<body>
+	<!-- Specific Requirement#2b All pages must have page titles -->
+	<div id="ingredients" data-role="page" data-theme="a" data-title="Colombia Tamales - Ingredients">
+
+
+		<!-- Specific Requirement#2i Panel for the left Menu -->
+		<div data-role="panel" data-position="left" id="siteMapB" data-display="overlay">
+
+			<div>
+	      <ul data-role="listview" data-inset="true" data-shadow="false">
+					<li><a href="ingredients.html" data-transition="flip"> Ingredients</a></li>
+					<li><a href="nightBefore.html" data-transition="flow"> The Night Before</a></li>
+					<li><a href="meatDough.html" data-transition="turn"> Meats and the Dough</a></li>
+					<li><a href="otherIngredients.html" data-transition="slideup"> Other Ingredients</a></li>
+					<li><a href="assembling.html" data-transition="slidedown"> Assembling</a></li>
+					<li><a href="serving.html"  rel="external"  data-transition="pop"> Serving Suggestions</a></li>
+	      </ul>
+	    </div>
+
+		</div>
+
+
+	<!-- ===================     JQUERY MOBILE HEADER  ========================  -->
+		<!-- Specific Requirement#2e All pages must have headers and footers -->
+		<div data-role="header" data-position="inline">
+
+			<h1>Colombian Tamales</h1>
+
+			<!-- Specific Requirement#2f Navigation must be implemented by use of a Navbar -->
+	    <div data-role="navbar">
+				<ul>
+	  			<li>
+	          <!-- Week2#5 & Week2#7 Link Pages with transition -->
+	          <a data-ajax="false" href="index.html" data-icon="home" data-transition="pop">Home</a>
+	        </li>
+	  			<li>
+	          <!-- week2#6 & week2#7 The Tutorial Start Page is prefetched with an slide transition -->
+						<a data-ajax="false" href="cooking.html" data-icon="action" data-transition="pop">Cooking</a>
+	        </li>
+	  			<li>
+	          <!-- Week2#5 & Week2#7 Link Pages with transition -->
+	          <a data-ajax="false" href="feedback.html" data-icon="info" data-transition="flip">Feedback</a>
+	        </li>
+				</ul>
+			</div>
+
+		</div>
+
+		<!-- ===================   JQUERY MOBILE MAIN   =========================  -->
+		<div data-role="content" data-theme="a">
+			<div id="menuDiv">
+				<!-- Specific Requirement#2j Icons must be implemented throughout the application MENU-->
+				<a data-ajax="false" href="#siteMapB" class="ui-btn ui-icon-bars ui-btn-icon-notext ui-corner-all" title="Menu">Menu</a>
+			</div>
+
+			<h2>Ingredients</h2>
+
+			<p>
+				<label for="servings">Number of tamales</label>
+				<input type="number" name="quantity" id="quantity" size="2" min="1" max="20" value="4">
+			</p>
+
+
+
+			<!-- Specific Requirement#2i table -->
+			<table data-role="table" id="ingredients_tbl" class="ui-body-b table-stripe ingredients-tbl">
+				<thead>
+					<tr>
+						<th>Ingredient</th>
+						<th>Qty.</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr class="ingredient_sub">
+						<td colspan="2"><b>Wrapping</b></td>
+					</tr>
+						<tr>
+							<td>Banana leaf</td>
+							<td><span id="leafQty">4</span> leaves</td>
+						</tr>
+						<tr>
+							<td>Kitchen string</td>
+							<td><span id="stringQty">8</span> ft</td>
+						</tr>
+
+
+					<tr class="ingredient_sub">
+						<td colspan="2"><b>Filling</b></td>
+					</tr>
+
+						<tr>
+							<td>Beef ribs</td>
+							<td><span id="beefQty">8</span> oz</td>
+						</tr>
+						<tr>
+							<td>Pork meat</td>
+							<td><span id="porkQty">8</span> oz</td>
+						</tr>
+						<tr>
+							<td>Chicken drumette</td>
+							<td><span id="chickenQty">4</span> pcs</td>
+						</tr>
+						<tr>
+							<td>Pork skin</td>
+							<td><span id="porkSkinQty">4</span> oz</td>
+						</tr>
+						<tr>
+							<td>Carrots</td>
+							<td><span id="carrotQty">1</span> Large</td>
+						</tr>
+						<tr>
+							<td>Red potatoes</td>
+							<td><span id="potatoesQty">1</span> large</td>
+						</tr>
+						<tr>
+							<td>Eggs</td>
+							<td><span id="eggQty">1</span></td>
+						</tr>
+
+
+					<tr class="ingredient_sub">
+						<td colspan="2"><b>Dough</b></td>
+					</tr>
+						<tr>
+							<td>Rice</td>
+							<td><span id="riceQty">4</span> oz</td>
+						</tr>
+						<tr>
+						<tr>
+							<td>Yellow Split Peas</td>
+							<td><span id="peasQty">3</span> oz</td>
+						</tr>
+						<tr>
+							<td>Corn flour</td>
+							<td><span id="flourQty">2</span> oz</td>
+						</tr>
+
+
+					<tr class="ingredient_sub">
+						<td colspan="2"><b>Marinade</b></td>
+					</tr>
+						<tr>
+							<td>Yellow onions</td>
+							<td><span id="yOnionQty">0.5</span></td>
+						</tr>
+						<tr>
+						<tr>
+							<td>Green onions</td>
+							<td><span id="gOnionQty">3</span> Bunches</td>
+						</tr>
+						<tr>
+							<td>Garlic</td>
+							<td><span id="garlicQty">5</span> cloves</td>
+						</tr>
+						<tr>
+							<td>Tomatoes</td>
+							<td><span id="tomatoQty">3</span> larges</td>
+						</tr>
+						<tr>
+							<td>Olive oil</td>
+							<td><span id="oilQty">1</span> Tbsp</td>
+						</tr>
+						<tr>
+							<td>Ground cumin</td>
+							<td><span id="cumminQty">2</span> Tbsp</td>
+						</tr>
+						<tr>
+							<td>Chicken flavor</td>
+							<td><span id="flavorQty">2</span> Tbsp</td>
+						</tr>
+						<tr>
+							<td>Salt</td>
+							<td><span id="saltQty">3</span> Tbsp</td>
+						</tr>
+						<tr>
+							<td>Black pepper</td>
+							<td><span id="pepperQty">2</span> Tbsp</td>
+						</tr>
+						<tr>
+							<td>Oregano</td>
+							<td><span id="oreganoQty">1</span> tsp</td>
+						</tr>
+						<tr>
+							<td>Bay laurel</td>
+							<td><span id="laurelQty">1</span> tsp</td>
+						</tr>
+						<tr>
+							<td>Thyme</td>
+							<td><span id="thymeQty">1</span> tsp</td>
+						</tr>
+
+				</tbody>
+			</table>
+
+
+
+		</div>
+
+		<!-- ==================== JQUERY MOBILE FOOTER  ============================ -->
+		<!-- Specific Requirement#2e All pages must have headers and footers -->
+	  <div data-role="footer">
+
+			<!-- Specific Requirement#2f Navigation must be implemented by use of a Navbar -->
+	    <div data-role="navbar" id="footerNavBarA" data-iconpos="right">
+				<ul>
+	  			<li>
+	         <!-- Specific Requirement#2d  transition -->
+	          <a href="cooking.html" data-icon="back" data-transition="turn">Back</a>
+	        </li>
+	  			<li>
+	          <!-- Specific Requirement#2d  transition -->
+	          <a href="nightBefore.html" data-icon="forward" data-transition="turn">Next</a>
+	        </li>
+				</ul>
+			</div>
+
+	    <h4>Ana Herrera &copy; 2018</h4>
+	  </div>
+
+	</div> <!-- END PAGE -->
+
+</body>
+
+</html>

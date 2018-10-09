@@ -1,0 +1,199 @@
+<!--
+  ISLT 4375/7375 Mobile Web Application Development
+  Final Project (How to Make Colombian Tamales Tutorial)
+  Herrera Ana
+	Serving Page: In this page you can find:
+		A top Navigation bar in the header links the three main pages of this tutorial.
+		A listview menu can be displayed in a left panel using an icon link.
+		A tab Widget holds three grids of information and images.
+		A footer navigation bar with two link to the last and next page.
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>How to Make Colombian Tamales - Serving Suggestions</title>
+
+	<!-- ============================    HEADER LINKS  ========================= -->
+	<!-- ============================       CSS        ========================= -->
+	<!-- Specific Requirement#2k custom theme using themeroller -->
+	<link rel="stylesheet" href="themes/Tamales.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<link rel='stylesheet' href='css/styles.css'>
+
+	<!-- ===========================        JS         ========================  -->
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+	<!-- Specific Requirement#2b All pages must have page titles -->
+	<div id="serving" data-role="page" data-theme="a" data-title="Colombia Tamales - Serving Suggestions">
+
+
+		<!-- Specific Requirement#2i panel -->
+		<div data-role="panel" data-position="left" id="siteMapG" data-display="overlay">
+
+			<div>
+	      <ul data-role="listview" data-inset="true" data-shadow="false">
+					<li><a href="ingredients.html" data-transition="flip"> Ingredients</a></li>
+					<li><a href="nightBefore.html" data-transition="flow"> The Night Before</a></li>
+					<li><a href="meatDough.html" data-transition="turn"> Meats and the Dough</a></li>
+					<li><a href="otherIngredients.html" data-transition="slideup"> Other Ingredients</a></li>
+					<li><a href="assembling.html" data-transition="slidedown"> Assembling</a></li>
+					<li><a href="serving.html"  rel="external" data-transition="pop"> Serving Suggestions</a></li>
+	      </ul>
+	    </div>
+
+		</div>
+
+
+	<!-- ===================     JQUERY MOBILE HEADER  ========================  -->
+		<!-- Specific Requirement#2e All pages must have headers and footers -->
+		<div data-role="header" data-position="inline">
+
+			<h1>Colombian Tamales</h1>
+
+			<!-- Specific Requirement#2f Navigation must be implemented by use of a Navbar -->
+	    <div data-role="navbar">
+				<ul>
+	  			<li>
+	         <!-- Specific Requirement#2d  transition -->
+	          <a href="index.html" data-icon="home" data-transition="pop" >Home</a>
+	        </li>
+	  			<li>
+	          <!-- Specific Requirement#2d  transition -->
+						<a href="cooking.html" data-icon="action" data-transition="fade">Cooking</a>
+	        </li>
+	  			<li>
+	          <!-- Specific Requirement#2d  transition -->
+	          <a href="feedback.html" rel="external" data-icon="info" data-transition="flip">Feedback</a>
+	        </li>
+				</ul>
+			</div>
+
+		</div>
+
+
+
+		<!-- ===================   JQUERY MOBILE MAIN   =========================  -->
+		<div data-role="content" data-theme="a">
+			<div id="menuDiv">
+				<!-- Specific Requirement#2j Icons must be implemented throughout the application -->
+				<a data-ajax="false" href="#siteMapG" class="ui-btn ui-icon-bars ui-btn-icon-notext ui-corner-all" title="Menu">Menu</a>
+			</div>
+
+			<h2>Serving Suggestions</h2>
+
+			<div data-role="tabs" id="suggestionTabs">
+
+				<div data-role="navbar" id="suggestionNavbar">
+					<ul>
+						<li><a href="#beverage" data-ajax="false">Beverage</a></li>
+						<li><a href="#side" data-ajax="false">Sides</a></li>
+						<li><a href="#presentation" data-ajax="false">Presentation</a></li>
+					</ul>
+				</div>
+
+				<div id="beverage" class="ui-body ui-body-b ui-corner-all">
+
+					<!-- Specific Requirement#2i grid Widget -->
+					<div class="ui-grid-a" id="suggestionsGrid">
+						<div class="ui-block-a">
+							<img src="images/beverage.jpg" width="80%">
+						</div>
+
+						<div class="ui-block-b">
+
+								<ul>
+									<li>Hot chocolate</li>
+									<li>Coffee & milk</li>
+									<li>Colombian soda 'Colombiana'</li>
+									<li>Beer</li>
+								</ul>
+						</div>
+					</div> <!-- END GRID -->
+
+				</div>
+
+				<div id="side" class="ui-body ui-body-b ui-corner-all">
+
+					<!-- Specific Requirement#2i grid Widget -->
+					<div class="ui-grid-a">
+						<div class="ui-block-a">
+							<img src="images/sides.jpg" width="80%">
+						</div>
+
+						<div class="ui-block-b">
+
+							<ul>
+								<li>Warm buttery rolls</li>
+								<li>Colombian arepas</li>
+								<li>Colombian pandebonos</li>
+								<li>Mozzarella cheese</li>
+							</ul>
+						</div>
+					</div> <!-- END GRID -->
+
+				</div>
+
+				<div id="presentation" class="ui-body ui-body-b ui-corner-all">
+
+					<!-- Specific Requirement#2i grid Widget -->
+					<div class="ui-grid-a">
+						<div class="ui-block-a">
+							<img src="images/presentation.jpg" width="80%">
+						</div>
+
+						<div class="ui-block-b">
+
+							<ul>
+								<li>Rounded Tamale</li>
+								<li>Rectangular Tamale</li>
+								<li>Tamale Roll</li>
+							</ul>
+						</div>
+					</div><!-- END GRID -->
+
+				</div>
+
+			</div> <!-- END TABS -->
+
+
+
+		</div> <!-- END CONTENT -->
+
+
+
+
+
+		<!-- ==================== JQUERY MOBILE FOOTER  ============================ -->
+		<!-- Specific Requirement#2e All pages must have headers and footers -->
+		<div data-role="footer" id="footerServing">
+			<!-- Specific Requirement#2f Navigation must be implemented by use of a Navbar -->
+			<div data-role="navbar" id="footerNavBarH" data-iconpos="right">
+				<ul>
+					<li>
+					 <!-- Specific Requirement#2d  transition -->
+						<a href="assembling.html" data-icon="back" data-transition="flow">Back</a>
+					</li>
+					<li>
+						<!-- Specific Requirement#2d  transition -->
+						<a href="feedback.html" rel="external" data-icon="forward" data-transition="flow">Feedback</a>
+					</li>
+				</ul>
+			</div>
+
+			<h4>Ana Herrera &copy; 2018</h4>
+		</div>
+
+
+</div> <!-- END PAGE -->
+
+</body>
+
+</html>
