@@ -1,0 +1,31 @@
+ body {
+	font-family:"Arial", Verdana, sabs-serif;
+	font-size:11px;
+	background-color:rgb(236,244,253); 
+	color:rgb(87,87,87); 
+	text-align: left; 
+	}
+  table {color:rgb(0,0,126); border-collapse: separate;border-spacing: 10px;}
+  h1 { color:rgb(0,0,126); text-align: center;}
+  h2 { color:rgb(0,0,126); font-variant: small-caps; text-align: left;}
+  h3 { color:rgb(0,0,126); font-weight: bold ; font-family: courier; text-align: right;}
+  h4 { color:rgb(0,0,126); font-weight: bold ; text-align:center;}
+  h5 { color:rgb(0,0,126); text-align: center;}
+
+  p {color:rgb(87,87,87); text-align: left;}
+  a:link {color:rgb(97,0,0); }
+  a:visited {color:rgb(87,87,87); }
+  a:hover {color:rgb(0,0,126);}
+  a:active {color:rgb(87,87,87);}
+  
+  li{
+	line-height: 20px;
+  }
+  
+   /*
+    * rgb(236,244,253); light blue - background
+	* rgb(0,0,126); dark blue - letters
+	* rgb(97,0,0); dark blue - hover links
+	* rgb(87,87,87); dark blue - hover links
+	* 
+	*/

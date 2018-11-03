@@ -1,0 +1,23 @@
+ body {background-color: #030708; color: #78BB5E ; text-align: left}
+  table {color: #630063 ; border-collapse: separate;border-spacing: 10px;}
+  h1 { color: #97E4C3 ; text-align: center;}
+  h2 { color: #97E4C3 ;font-variant: small-caps; text-align: left;}
+  h3 { color: #97E4C3 ;font-weight: bold ; font-family: courier; text-align: right;}
+  h4 { color: #97E4C3 ;font-weight: bold ; text-align:center;}
+  h5 { color: #97E4C3 ; text-align: center;}
+
+  p {color: #FFFAFA ; text-align: left;}
+  a:link {color: #B4D75F; }
+  a:visited {color: #D496EB; }
+  a:hover {color: #E0CFC8;}
+  a:active {color: #D496EB;}
+  
+  
+  
+   /*
+    * #97E4C3 LIGHT BLUE
+	* #030708 DARK GREEN
+	* #B4D75F 78BB5E LIGHT GREEN
+	* #D496EB E0CFC8 LIGHT PURPLE
+	* #630063 DARK PURPLE
+	*/
