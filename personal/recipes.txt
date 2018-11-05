@@ -1,0 +1,324 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body
+    <p>
+    
+    <a name="recipes"><h1>MY RECIPES</h1></a>
+    <ul type="square">
+      <li><a href="#Albondigas">Albóndigas en salsa</a><br /></li>
+      <li><a href="#Alitas">Alitas de pollo fritas a la madrileña</a><br /></li>
+      <li><a href="#Arroz">Arroz con pollo</a><br /></li>
+      <li><a href="#Calamares">Calamares al ajillo</a><br /></li>
+      <li><a href="#Canastitas">Canastitas de atún</a><br /></li>
+      <li><a href="#Ceviche">Ceviche de camarones</a><br /></li>
+      <li><a href="#Changua">Changua</a><br /></li>
+      <li><a href="#Spaguetis I">Spaguetis con Mantequilla</a><br /></li>
+      <li><a href="#Spaguetis II">Spaguetis con Pollo</a><br /></li>
+      <li><a href="#Carne">Carne al Horno</a><br /></li>
+      <li><a href="#Crepes">Crepes</a><br /></li>
+      <li><a href="#Platanos">Platanos con bocadillo</a><br /></li>
+      </ul>
+
+    </p>
+    
+    <hr />
+    <p>
+
+      <a name="Albondigas"><h2>Albóndigas en salsa</h2></a>
+          INGREDIENTES (para 4 personas)<br /><br />
+           <small>
+          <li>500 gramos de carne picada de ternera y magro de cerdo mezclada.
+          <li>1 rama de perejil.
+          <li>1 huevo.
+          <li>1 cebollas pequeña.
+          <li>2 dientes de ajo.
+          <li>1 tomate.
+          <li>1 zanahoria. 
+          <li>3 decilitros de aceite para freír.
+          <li>Sal.<br /><br />
+          </small>
+          Se bate el huevo y se mezcla con la carne picada. Se añaden también el ajo y el perejil picados, y un poco de sal.
+          Se deja reposar la carne en el frigorífico durante 30 minutos.
+          Con la carne picada se hacen bolas que se pasan por harina para a continuación freírlas. Estas albóndigas se reservan.
+          En la misma sartén que se han frito las albóndigas y con un poco de ese aceite, se sofríe la cebolla cortada en tiras, el diente de ajo, la zanahoria pelada 
+          y cortada en rodajitas y el tomate troceado.
+          Una vez sofrita la verdura se añade una cucharada de harina, se sofríe con la verdura y a continuación se vierten dos vasos de agua, dejando que cueza por espacio de 5 minutos.
+          La salsa se pasa por el pasapurés y con ella se salsean las albóndigas, dejando el conjunto durante 10 minutos a fuego suave.
+          Las albóndigas se pueden acompañar con unas patatas fritas cortada en cuadraditos.<br /><br />
+     <a href="#recipes"><h3>** Go top **</h3></a>
+     <hr />
+     <a name="Alitas"><h2>Alitas de pollo fritas a la madrileña</h2></a>
+     
+     
+        INGREDIENTES (para 2 personas)<br><br>
+        <small>
+        <li>12 alitas de pollo
+        <li>100 ml de vino
+        <li>perejil, 
+        <li>2 dientes de ajo, 
+        <li>2 huevos 
+        <li>pan rallado, 
+        <li>aceite 
+        <li>sal.<br><br>
+     </small>   
+        Se cortan las puntas de las alitas de pollo, se quita la piel, y se apelotona la carne en un extro de la alita. Las ponemos en un cuenco con el vino y se remueven 
+        para que se impregnen con el líquido y se dejan 3 horas en un sitio fresco. 
+        Mezclamos pan rallado con un pco de perejil y los dientes de ajo picados; una vez ha pasado el tiempo de reposo se escurren las alitas y se sazonan con sal y se 
+        pasan por el pan rallado, huevo batido y de nuevo por pan rallado. Se fríen hasta que estén bien doradas en abundante aceite caliente. 
+        Es recomendable escurrirlas en papel absorvente para que pierdan el exceso de grasa, se sirven calientes y conn algún acompañamiento como una ensalada.<br><br>
+      <a href="#recipes"><h3>** Go top **</h3></a>   
+     <hr>
+     
+     <a name="Arroz"><h2>Arroz con pollo</h2></a>
+     
+     INGREDIENTES (6 personas)<br><br>
+     <small>
+        <li>Sal al gusto 
+        <li>3 cucharadas de aceite de oliva 
+        <li>chorizos libras 
+        <li>3 libras de pollo picado y sin huesos 
+        <li>6 tazas de caldo basico de pollo 
+        <li>3 tazas de arroz lavado 
+        <li>3 cebollas de huevo partidas y picadas 
+        <li>4 dientes de ajo 
+        <li>1 cucharada de pimienta negra en pepas 
+        <li>tomillo molido cucharadita 
+        <li>oregano molido cucharadita 
+        <li>1 taza de pasta de tomate 
+        <li>1 unidad de pimenton verde o rojo en tiritas<br><br> 
+     </small>
+        Calentar el aceite en una olla grande. 
+        Se sofrien los ajos. Se agregan las presas de pollo, se dejan dorar un poco; se a-aden los chorizos desmenuzados y se dejan sofreir unos minutos; 
+        luego, se ponen los pimentones, la cebolla, las hierbas, sal y pimienta. Se revuelve todo y se deja conservar por unos minutos. 
+        Se añade el arroz y el caldo con la pasta de tomate disuelta, se deja cocinar a fuego alto hasta que empiece a secar, se agregan las alcaparras, 
+        se tapa, se baja a fuego lento y se deja acabar de secar al gusto.<br><br>
+      <a href="#recipes"><h3>** Go top **</h3></a>
+        <hr>
+     <a name="Calamares"><h2>Calamares al ajillo</h2></a>
+     
+     INGREDIENTES (2 personas)<br><br>
+     <small>
+        <li>600 grs. de calamares 
+        <li>100 grs. de ajo picado 
+        <li>Perejil picado 
+        <li>4 cucharadas de aceite de oliva 
+        <li>1 cucharada de vino blanco<br /><br />
+     </small>
+     Sofreír el ajo a fuego muy lento, añadir los calamares limpios cortados en trozos, y dejar que se vayan haciendo, removiendo constantemente. 
+     Verter el vino y dejar un par de minutos. Añadir el perejil antes de servir.<br /><br />
+      <a href="#recipes"><h3>** Go top **</h3></a>
+     <hr />
+
+     <a name="Canastitas"><h2>Canastitas de atún</h2></a>
+     
+     INGREDIENTES (15 personas)<br><br>
+     <small>
+        <li>2 latas de atún
+        <li>1 sobre de crema marinera
+        <li>2 tazas de agua
+        <li>3 cucharadas de vino blanco (opcional)
+        <li>1/2 taza de crema de leche
+        <li>1 taza de verduras mixtas
+        <li>6 canastitas de hojaldre
+        <li>1 cucharada de perejil finamente picado<br /><br />
+     </small>
+     Disuelva la crema marinera en 2 tazas de agua, lleve a fuego medio y deje hervir hasta que espese. Incorpore el vino, la crema de leche y las verduras mixtas, 
+     mezclando bien. Coloque en las canastitas el atún y vierta la salsa por encima. Espolvoree el perejil.<br /><br />
+      <a href="#recipes"><h3>** Go top **</h3></a>
+     <hr />
+     
+     <a name="Ceviche"><h2>Ceviche de camarones</h2></a>
+     
+     INGREDIENTES (2 personas)<br /><br />
+     <small>
+        <li>1 pound of shrimp cleaned and peeled</li>
+        <li>3/4 chopped onion</li>
+        <li>1/4 cup of lemon juice</li>
+        <li>12 tablespoons of ketchup</li>
+        <li>2 tablespoons of white wine</li>
+        <li>4 garlic</i><br /><br />
+      </small>
+      Defrost the shrimps saving its water, after that add the garlic and scramble.
+      Slice the onions and put it in cold water, stirring for 15 minutes, and drain the onions. Chop the onions in small pieces add the lemon juice and stir for 15 minutes.
+      Mix the shrimps with onions and add the ketchup and wine. Scramble well. Serve with salt crackers.<br /><br />
+      <a href="#recipes"><h3>** Go top **</h3></a>
+    <hr />
+    
+      
+     <a name="Changua"><h2>Changua</h2></a>
+     
+     INGREDIENTES (4 personas)<br /><br />
+     <small>
+        <li>2 tazas de agua</li>
+        <li>2 tazas de leche</li>
+        <li>1 cebolla larga picada</li>
+        <li>2 cucharadas de cilantro</li>
+        <li>4 huevos</li>
+        <li>Sal al gusto</li><br /><br />
+     </small>
+     Hervir la leche. Se mezclan la leche y el agua y se ponen en el fogón. Se añade la sal, se agregan la cebolla y una cucharada de cilantro. Se deja hervir durante 10 minutos.
+     Se añaden los huevos. Se sirve, y se reparte la otra cucharada de cilantro sobre las tazas.<br /><br />
+      <a href="#recipes"><h3>** Go top **</h3></a>
+    <hr />   
+    
+     <a name="Spaguetis II"><h2>Spaguetis Con Pollo</h2></a>
+     
+       INGREDIENTES (2 personas)<br /><br />
+      <small>
+         <li>1 pechugas de pollo</li>
+         <li>1/4 libra de Espaguetis</li>
+         <li>4 cucharadas de salsa o pasta de tomate</li>
+         <li>1/2 cdita. de orégano fresco y albaca</li>
+         <li>1 cucharada de sal</li>
+         <li>1 cdita. de aceite de oliva</li><br /><br />
+         
+      </small>
+        Retira la piel de las pechugas y lavalas bien, cocinalas en una olla profunda con no mucha agua para que quede con mucho sabor a pollo, dejalas enfriar y desmenuzalas. 
+        En una sartén grande echa el aceite de oliva, calientalo, echa el pollo y cocina a temperatura mediana de 5 a 10 minutos hasta que quede doradito.<br /> 
+        Añade el sofrito, salsas, orégano y la albaca, sazonador y sal al gusto. Cocina a temperatura mediana por 10 minutos. Mientras tanto... 
+        En el caldo de las pechugas cocina los spaguetis reservando una taza de caldo. No mas de 15 minutos a fuego medio para que queden al dente, si te gusta asi, es decir durita. 
+        Cuando esten los spaguetis escurrelos y deja que se enfrien por si solos.<br />
+        En la olla profunda echa los espaguetis y el pollo guisado. Mezcla y sazona al gusto. si te gustan mojaditos puedes echarle un poco del caldo reservado anteriormente 
+        o este lo puedes usar como consome para la entrada.<br />
+        Sirve con queso parmesano rallado, un de Pan tajado y ensalada de verduras.
+    <a href="#recipes"><h3>** Go top **</h3></a>
+    <hr />
+
+    <a name="Spaguetis I"><h2>Spaguetis Con Mantequilla</h2></a>
+     
+       INGREDIENTES (4 personas)<br /><br />
+      <small>
+         <li>1 t. 	Agua</li> 	
+         <li>1 C 	Aceite</li> 	
+         <li>2 c 	Sal</li> 	
+         <li>½ kg. 	Espaguetis</li> 	
+         <li>3 C 	Mantequilla</li> 	
+         <li>Sal</li> 	
+         <li>Pimienta</li> 	
+		
+      </small> 
+
+      Vierta agua en una cacerola. Póngale el aceite y la sal y deje que empiece a hervir. Agregue los espaguetis y cuézalos de manera que la pasta no quede muy cocida. 
+      Enjuague bajo agua fría y luego con agua caliente. Escurra y deje aparte.<br />
+      Derrita la mantequilla en una sartén y saltee ligeramente los espaguetis cocidos.Sazone con sal y pimienta.
+      Sírvalos en platos calientes. Cubra con la salsa o guarnición que le agrade.<br />
+    
+    <a href="#recipes"><h3>** Go top **</h3></a>
+   
+    <hr />       
+    <a name="Carne"><h2>Carne al Horno</h2></a>
+     
+       INGREDIENTES (2 personas)<br /><br />
+      <small>
+
+    <li>1 pieza de carne redonda de 1 kilo y cuarto aproximadamente</li>
+    <li>1 cebolla grande</li>
+    <li>2 dientes de ajo</li>
+    <li>1 ramita de perejil fresco</li>
+    <li>1 taza pequena de aceite, oliva, girasol o maiz</li>
+    <li>300 ml. de vino tinto</li>
+    <li>300 ml. de agua</li>
+    <li>1 pizca de pimienta negra molida</li>
+    <li>Sal</li><br /><br />
+         
+      </small>
+    Prepara el horno a una temperatura de 250 grados centigrados o 450 F, si no tienes esta funcion en tu horno ponlo a la maxima potencia. 
+    Prepara una cazuela para poner la carne y meter al horno. Prepara la pieza de carne para el horno, pon sal la pimienta negra molida y la taza de aceite encima de la carne. 
+    Pela la cebolla y partela en trozos no muy pequenos, ponla en la cazuela de la carne. Introducelo en el horno durante 20 minutos. Prepara un mortero y machaca los ajos y el perejil. 
+    Cuando la carne lleve los 20 minutos en el horno, saca la cazuela, (no olvides ponerte una manopla para evitar quemaduras), echa por encima de la carne el ajo y el perejil, 
+    la mitad del vino y la mitad del agua, por un poco de sal. Pon el fuego del horno al una temperatura baja como de unos 100 grados, y vuelve a meter la carne durante otros 10 minutos. 
+    Trascurridos los 10 minutos vuelve a sacar la carne del horno y anade el resto del vino y del agua, prueba la salsa para ver si esta a tu gusto de sal. 
+    Ahora solo tienes que esperar que la salsa este concentrada, sera suficiente con otros 10 o 15 minutos. Despues de tener la carne asada, saca del horno para esperar que se enfrie. 
+    Cuando tengas la carne fria ponla encima de una base firme y prepara un cuchillo grande y bien afilado. Solo tienes que ir partiendo la carne el lonchas finas o no tan finas segun tu gusto. 
+    Vete colocando las lonchas de carne en una cazuela si en posible de barro, esa misma cazuela la puedes poner en tu mesa en el momento de servir la carne, pon la salsa y la cebolla 
+    por encima de la carne. Si ves que la carne te ha quedado un poco cruda solo tienes que poner la cazuela encima del fuego de tu cocina, le vas anadiendo la salsa por encima durante 
+    unos minutos y enseguida te quedara la carne mas echa. La cebolla la puedes retirar si no te gusta, como guarnicion puedes poner una patatas fritas o una patata asada.
+    Si optas por la patata asada aprovecha mientras que estas asando la carne para asar las patatas, solo tienes que lavarlas bien y anadir sal, elige un tamano mediano para que 
+    se te asen bien por dentro y queden mas bonitas a la hora de poner en el plato.
+        <a href="#recipes"><h3>** Go top **</h3></a>
+    <hr />
+    
+    
+    <a name="Crepes"><h2>Crepes</h2></a>
+     
+       INGREDIENTES (4 crepes)<br /><br />
+      <small>
+
+    <li>1 vaso de leche</li>
+    <li>1 vaso de harina de trigo</li>
+    <li>1 Huevo</li>
+    <li>1/2 cucharadita de azúcar</li>
+    <li>1/2 cucharadita de sal</li>
+    <li>1 cucharadita de aceite</li>
+    </small>
+    La medida a tener en cuenta es la de un vaso; dependiendo del número de comensales y de la gula del momento, el vaso será de vino (unas 3 láminas de crepe), agua (4 ó 5 láminas), etc.
+    Se echa en el recipiente de la batidora: un vaso de harina, un vaso de leche, un huevo, una pizca de sal y otra de azúcar y un chorro de aceite. 
+    Hay que tener en cuenta si se desea un crepe dulce (para lo cual añadiremos más azúcar que sal) o salado (haremos lo contrario). 
+    Después de batirlo todo, lo colocamos en la nevera para que enfríe unos 5 minutos (así coge consistencia). 
+    En una sartén o plancha antiadherente (la antiadherencia es importante), echamos unas gotitas de aceite y cubrimos su superficie (para evitar que se pegue). 
+    La ponemos a fuego medio. Cuando esté caliente echamos un chorro de la masa del crepe que guardamos en la nevera y la extendemos 
+    (puedes hacer el crepe redondo u ovalado y del grosor que desees). Cuando veas que el crepe ya no se pega en la sartén es que hay que darle la vuelta, 
+    ayúdate con una espátula de madera y cuidadín que te quemas los dedos (pero vale la pena... está buenísimo). <br />
+    Finalmente, repite la operación por la otra cara, cuando no se pegue, está hecho.<br /><br />
+    
+    RECOMENDACIONES PARA ACOMPAÑAR EL CREPE:<br />
+
+    El relleno dependerá de si queréis el crepe dulce o salado.<br />
+    - CREPE DULCE: La imaginación y vuestros gustos culinarios son vuestros mejores aliados. 
+    Podéis ponerle lo que más os guste: mermelada, azúcar, miel, chocolate caliente, nata, frutas, helado... 
+    Para una tarde fresquita recomiendo untarlo con chocolate caliente y rodearlo de nata y para una tarde calurosa, el especial: helado, chocolate, sirope de fresa, 
+    plátano en rodajas y almendra picadita (mmmmmm....).<br />
+    - CREPE SALADO: Aquí también hay total libertad así que sólo os describiré mis dos favoritos: el OCEÁNICA (que se puede tomar frío), una mezcla de lechuga, gambas 
+    y palitos de cangrejo que untaremos en salsa rosa (que podéis suavizar con un poco de mayonesa) y el de BACON (que debe estar calentito) con trocitos de bacon frito 
+    en poco aceite y uno o dos huevos fritos. Recomiendo hacer para cada plato (sobre todo en el caso del Oceánica) dos láminas de crepe para poner en medio la mezcla.<br /> 
+    Para concluir, un último consejo: lo mejor es preparar la mezcla de relleno mientras la masa del crepe enfría en la nevera.
+    Bueno, eso es todo. ¡Bon apetit!.
+    <a href="#recipes"><h3>** Go top **</h3></a>
+    <hr />
+    
+    
+    <a name="Platanos"><h2>Platanos con bocadillo y queso</h2></a>
+     
+       INGREDIENTES (4 crepes)<br /><br />
+      <small>
+
+    <li>8 plátanos medianos bien maduros, pelados</li> 
+    <li>250grs. de queso blanco cortado en tajaditas</li> 
+    <li>250grs. De bocadillo de guayaba</li>
+
+    Se ponen los plátanos a asar al horno hasta que estén dorados, se sacan y se cortan a lo largo hasta el corazón, que se le saca rellenando su espacio con el 
+    bocadillo y el queso. Se regresan al horno por 10 minutos y se sirven.
+    <a href="#recipes"><h3>** Go top **</h3></a>
+    <hr />
+    
+    <a name="Salmon"><h2>Salmón al horno con hierbas</h2></a>
+     
+       INGREDIENTES (4 crepes)<br /><br />
+      <small>
+
+    <li>
+    
+    
+?
+1 filete de salmón con piel (800 g)
+3 hojas de laurel
+5 dientes de ajo
+5 ramitas de tomillo, estragón y mejorana
+150 g de mantequilla 
+Sal marina 
+Pimienta
+Papel de aluminio
+Extienda el papel de aluminio. Eche la mantequilla, las hierbas, el laurel, la sal y la pimienta. Envuelva herméticamente el salmón con el papel de aluminio y áselo a 180 grados durante 15 minutos. Sáquelo y utilice el caldo como salsa.
+    <a href="#recipes"><h3>** Go top **</h3></a>
+    <hr />
+
+
+    
+    </p>
+    <p>
+    <h4>Enjoy your food !!</h4>
+    </p>
+  </body>
+</html>
